@@ -24,7 +24,15 @@ def generar_pares(limite):
         yield num*2
         num+=1
 
+#Devuelve  el primer valor del generador.
 devuelve_pares=generar_pares(10)
 
-for i in devuelve_pares:
-    print(i)
+print(next(devuelve_pares))
+
+print("Aqui hay mas codigo")
+
+print(next(devuelve_pares))
+
+print("Aqui hay mas codigo")
+
+print(next(devuelve_pares))
