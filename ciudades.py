@@ -2,8 +2,7 @@
 #yield from, nos permite prescindir del for anidado
 def devuelve_ciudades(*ciudades):
     for elemento in ciudades:
-        for sub_elemento in elemento:
-            yield sub_elemento
+        yield from elemento
 
 ciudades_devueltas= devuelve_ciudades("Madrid", "Medellin", "itagui", "Envigado")
 
