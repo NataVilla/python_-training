@@ -16,14 +16,15 @@ def divide(num1,num2):
 		print("No se puede dividir entre cero")
 		return "operacion erronea"	
 	
+while True:
+    try:
+        op1=(int(input("Introduce el primer numero: ")))
+        op2=(int(input("Introduce el segundo numero: ")))		
 
-try:
-    op1=(int(input("Introduce el primer numero: ")))
-
-    op2=(int(input("Introduce el segundo numero: ")))		
-	
-except ValueError:
-    print("Los valores introducidos no son correctos")
+        break
+    
+    except ValueError:
+        print("Los valores introducidos no son correctos. Intenta de nuevo")
 
 operacion=input("Introduce la operacion a realizar (suma,resta,multiplica,divide): ")
 
