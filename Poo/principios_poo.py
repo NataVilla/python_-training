@@ -1,9 +1,13 @@
 class Coche():
+## Se crea constructor, el cual me da el estado inicial de la clase
+    def __init__(self) -> None:
+        pass
+
 ##Se crean las propiedades de la clase
-    largoChasis = 250
-    anchoChasis = 120
-    ruedas =4
-    enmarcha=False
+        self.largoChasis = 250
+        self.anchoChasis = 120
+        self.ruedas =4
+        self.enmarcha=False
 
     ##Se establecen comportamientos (Metodos)
     ##self: hace referencia al propio objeto perteneciente a la clase.
@@ -25,11 +29,6 @@ class Coche():
 ##Construccion de objetos
 ##Instaciar el objeto es cuando se asigna la clase al objeto que se esta creando.
 miCoche = Coche()
-
-print(miCoche.largoChasis)
-
-print("El coche tiene", miCoche.ruedas, "ruedas")
-
 miCoche.arrancar(True)
 print(miCoche.arrancar(True))
 miCoche.estado()
