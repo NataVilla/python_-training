@@ -6,7 +6,8 @@ class Coche():
 ##Se crean las propiedades de la clase
         self.largoChasis = 250
         self.anchoChasis = 120
-        self.ruedas =4
+        ##Se encapsula la variable ruedas para que no sea accesible desde el exterior
+        self.__ruedas =4
         self.enmarcha=False
 
     ##Se establecen comportamientos (Metodos)
