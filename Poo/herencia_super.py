@@ -25,3 +25,5 @@ class empleado(Persona):
 hugo = empleado(500, 20, "Hugo", 35, "Medellin")
 
 hugo.descripcion()
+
+print(isinstance(hugo, Persona))
