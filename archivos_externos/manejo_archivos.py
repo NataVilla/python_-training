@@ -10,9 +10,9 @@ from io import open
 
 archivo_texto = open("archivo.txt", "r")
 
-texto = archivo_texto.read()
+linea_texto = archivo_texto.readlines()
 
 archivo_texto.close()
-print(texto)
+print(linea_texto)
 
 
