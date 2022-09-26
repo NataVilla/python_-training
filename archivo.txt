@@ -1,2 +1,3 @@
 Estupendo dia para estudiar python 
  el lunes
+ Siempre es una buena ocasion para estudiar Python
